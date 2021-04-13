@@ -34,7 +34,7 @@ public class Program {
 		String targetFileStr = sourceFolderStr + "\\out\\summary.csv";
 
 		try (BufferedReader br = new BufferedReader(new FileReader(sourceFileStr))) {
-
+ 
 			String itemCsv = br.readLine();
 			while (itemCsv != null) {
 
